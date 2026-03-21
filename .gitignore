@@ -1,0 +1,57 @@
+# Data and outputs (too large for git)
+data/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Models (large binary files)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Geospatial
+*.tif
+*.tiff
+*.geotiff
+*.shp
+*.dbf
+*.shx
+*.prj
+*.geojson
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.env.local
+*.env
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GEE credentials (never commit these)
+.config/earthengine/
+credentials
